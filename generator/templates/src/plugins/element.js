@@ -3,6 +3,7 @@ import Vue from 'vue'
 import lang from 'element-ui/lib/locale/lang/zh-CN'
 import locale from 'element-ui/lib/locale'
 // 按需导入组件
-import { Button } from 'element-ui'
+import {Button} from 'element-ui'
+
 locale.use(lang)
 Vue.use(Button)

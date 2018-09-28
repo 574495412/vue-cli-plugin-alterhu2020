@@ -41,6 +41,24 @@ module.exports = api => {
                     {encoding: 'utf8'}
                 )
             }
+        },
+        deleteDuplicatedFiles(callback) {
+            const routerfile = api.resolve('./src/router.js')
+            const storefile = api.resolve('./src/store.js')
+            const helloworldfile = api.resolve('./src/components/HelloWorld.vue')
+            const aboutfile = api.resolve('./src/views/About.vue')
+            if (fs.existsSync(routerfile)) {
+                fs.unlinkSync(routerfile)
+            }
+            if (fs.existsSync(storefile)) {
+                fs.unlinkSync(storefile)
+            }
+            if (fs.existsSync(helloworldfile)) {
+                fs.unlinkSync(helloworldfile)
+            }
+            if (fs.existsSync(aboutfile)) {
+                fs.unlinkSync(aboutfile)
+            }
         }
     }
 }
