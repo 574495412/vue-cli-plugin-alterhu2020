@@ -1,0 +1,26 @@
+{
+  "name": "vue-cli-plugin-alterehu2020",
+  "version": "1.0.0.beta1",
+  "description": "vue-cli 3 plugin to add full plugin features with one click,element-ui,axios,vux",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alterhu2020/vue-cli-plugin-alterhu2020.git"
+  },
+  "keywords": [
+    "element",
+    "element-ui",
+    "vux",
+    "axios",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "author": "Walter Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alterhu2020/vue-cli-plugin-alterhu2020/issues"
+  },
+  "homepage": "https://github.com/alterhu2020/vue-cli-plugin-alterhu2020#readme"
+}
