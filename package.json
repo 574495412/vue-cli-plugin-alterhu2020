@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-walterhu-mobile",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A vue-cli 3.0 plugin to add full plugin features with one click (element-ui,axios,vux.etc)",
   "main": "index.js",
   "repository": {
